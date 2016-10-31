@@ -11,3 +11,6 @@ urlpatterns = patterns('',
     url(r'^rss/(.+)/$', views.feed),
     url(r'^rss_full/(.+)/$', views.full_text_feed)
 )
+
+
+
